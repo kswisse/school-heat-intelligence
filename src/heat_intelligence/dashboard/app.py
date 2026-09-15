@@ -24,8 +24,8 @@ config = load_config()
 data_path = Path(__file__).parent.parent.parent.parent / "data" / "demo_campus.csv"
 data = load_data(str(data_path))
 
-from heat_intelligence.dashboard.pages import p1_overview
-p1_overview.render(data, config)
+from heat_intelligence.dashboard.pages import _p1_overview
+_p1_overview.render(data, config)
 
 st.divider()
 st.caption(
