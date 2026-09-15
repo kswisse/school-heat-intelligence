@@ -3,8 +3,14 @@
 Simplified submission-ready MVP: single Overview page.
 Backend modules are preserved for future development.
 """
-import streamlit as st
+import sys
 from pathlib import Path
+
+_src_dir = str(Path(__file__).resolve().parent.parent.parent)
+if _src_dir not in sys.path:
+    sys.path.insert(0, _src_dir)
+
+import streamlit as st
 
 st.set_page_config(page_title="School Heat Intelligence", page_icon="🌡️", layout="wide")
 st.title("🌡️ School Heat Intelligence")
