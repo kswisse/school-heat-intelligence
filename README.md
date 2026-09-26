@@ -1,5 +1,8 @@
 # School Heat Intelligence
 
+[![CI](https://github.com/kswisse/school-heat-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/kswisse/school-heat-intelligence/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Data-driven school campus heat risk detection, forecasting, and intervention simulation.
 
 ## Quick Start
